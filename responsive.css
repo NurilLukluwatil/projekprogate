@@ -1,0 +1,44 @@
+/* tablet */
+@media all and (max-width: 1000px){
+ .lesson-sepatu{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+    .col-2 h1 {
+    font-size: 32px;
+  }
+}
+
+/* smartphone */
+@media all and (max-width: 670px){
+  footer {
+    text-align: center;
+  }
+  .lesson-sepatu{
+    width: 100%;
+  }
+  .col-2 {
+    text-align: left;
+    padding-top: 100px;
+  }
+  
+  .col-2 {
+    text-align: left;
+  }
+  /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+  .col-2 h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+  .col-2 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
