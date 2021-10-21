@@ -1,36 +1,49 @@
 /* tablet */
-@media all and (max-width: 1000px){
- .lesson-sepatu{
-    width: 50%;
-    margin-bottom: 50px;
+@media (max-width: 1000px) {
+  /* Gantikan warna <h1> ke blue */
+  h1 {
+    font-size: 20px;
   }
-    .col-2 h1 {
-    font-size: 32px;
+  p {
+    font-size: 14px;
+  }
+  .lesson-icon-sepatu img {
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+  }
+
+  .lesson-icon-sepatu {
+    text-align: center;
+    margin: 5px;
+    width: 100px;
+  }
+
+  .lesson-icon-sepatu p {
+    padding: 1.5px;
+    width: 100%;
+    font-size: 12px;
   }
 }
 
 /* smartphone */
-@media all and (max-width: 670px){
+@media all and (max-width: 670px) {
   footer {
     text-align: center;
   }
-  .lesson-sepatu{
+  .lesson-sepatu {
     width: 100%;
   }
   .col-2 {
     text-align: left;
     padding-top: 100px;
+    width: 50%;
   }
-  
-  .col-2 {
-    text-align: left;
-  }
-  /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+
   .col-2 h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
   .col-2 p {
     font-size: 14px;
     line-height: 20px;
@@ -40,5 +53,54 @@
   }
   .menu-icon {
     display: block;
+  }
+
+  .categories {
+    width: 100%;
+  }
+
+  .col-3 h2 {
+    font-size: 12px;
+  }
+
+  .lesson-sepatu {
+    text-align: center;
+  }
+
+  .lessons-sepatu {
+    padding: 3px;
+  }
+  .lesson-icon-sepatu img {
+    text-align: center;
+    width: 100%;
+    /* padding: 15px; */
+  }
+
+  .lesson-icon-sepatu {
+    padding: 15px;
+  }
+
+  .lesson-icon-sepatu p {
+    /* padding: 15px; */
+    font-style: bold;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer .share a {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    border: var(--border);
+    margin: 0.2rem;
+    border-radius: 50%;
+  }
+
+  .text-contents-sepatu {
+    text-align: left;
   }
 }

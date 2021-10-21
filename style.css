@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Lucida Grande";
-  background-color: #55acee;
+  background-color: rgba(219, 209, 209, 0.815);
 }
 
 a {
@@ -20,10 +20,9 @@ a {
 
 .top-wrapper {
   padding: 200px 0 200px 0;
-  /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
   background-image: url(assets/outfit.jpeg);
   background-size: cover;
-  color: red;
+  /* color: red; */
   text-align: center;
 }
 
@@ -84,16 +83,14 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 50%;
   width: 100%;
-  /* background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
-  /* Ubah position ke fixed, dan top ke 0 */
-  background-color: #f8c291;
+  background-color: #ced6e0;
   position: fixed;
   top: 0;
 
   /* Ubah z-index ke 10 supaya header ditempatkan diatas element tertentu*/
-  z-index: 10;
+  z-index: 8;
 }
 
 .logo {
@@ -109,12 +106,12 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  /* margin-right: 10px; */
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
+  line-height: 50px;
+  /* padding: 0 15px; */
   color: black;
   display: block;
   float: left;
@@ -122,7 +119,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color: #fad390;
+  background-color: #5a5854;
   border-bottom: 4px solid black;
 }
 
@@ -132,21 +129,16 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f8efba;
   text-align: center;
-  top: -120px;
+  /* top: -120px; */
   border-radius: 40px;
 }
 
 .heading-store {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #55acee;
+  /* color: #b7c9d8; */
 }
-
-/* .heading-store h2 {
-    font-weight: normal;
-  } */
 
 .lesson-store {
   float: left;
@@ -180,9 +172,9 @@ header {
 
 /* tulis CSS Team kami dibawah */
 .lesson-wrapper-team {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-bottom: 80px; */
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
   background-color: #f8efba;
   text-align: center;
 }
